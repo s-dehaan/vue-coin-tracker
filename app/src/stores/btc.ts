@@ -10,7 +10,7 @@ export const useBtcStore = defineStore("btcStore", {
           usd: {},
         },
         disclaimer: "",
-      },
+      } as btcData,
     };
   },
   getters: {},
