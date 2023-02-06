@@ -1,3 +1,4 @@
+import type { btcState } from "@/types/btc";
 import { defineStore } from "pinia";
 
 export const useBtcStore = defineStore("btcStore", {
@@ -10,8 +11,8 @@ export const useBtcStore = defineStore("btcStore", {
           usd: {},
         },
         disclaimer: "",
-      } as btcData,
-    };
+      },
+    } as btcState;
   },
   getters: {},
   actions: {
