@@ -1,5 +1,5 @@
 {
-  "name": "node-project",
+  "name": "vue-coin-tracker",
   "dockerComposeFile": ["docker-compose.yml"],
   "service": "app",
   "workspaceFolder": "/workspace",
@@ -8,7 +8,8 @@
     "esbenp.prettier-vscode",
     "humao.rest-client",
     "orta.vscode-jest",
-    "redhat.vscode-yaml"
+    "redhat.vscode-yaml",
+    "vue.volar"
   ],
   "forwardPorts": [],
   "remoteUser": "vscode"
